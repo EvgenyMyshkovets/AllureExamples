@@ -28,12 +28,6 @@ namespace AllureExamples
         }
 
         [Test]
-        [Ignore("Ignored test")]
-        public void SkippedTest()
-        {
-        }
-
-        [Test]
         [AllureName("My custom name for test in allure")]
         [AllureTag("Regression")]
         [AllureSeverity(SeverityLevel.blocker)]
